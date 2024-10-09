@@ -25,11 +25,26 @@
     color: white;
 }
 
+.nav>a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    padding: 18px 26px;
+}
+
 .menu{
     width: 20%;
     height: 75vh;
     background-color: green;
     color: white;
+    padding-left: 20px;
+}
+
+.link{
+    text-decoration: none;
+    padding-top: 50px;
+    color: white;
+    font-size: larger;
 }
 
 .content{
