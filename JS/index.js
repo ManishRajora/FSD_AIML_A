@@ -52,4 +52,15 @@ console.log(emp);
 const emp1 = [101, ...emp];
 console.log(emp1);*/
 
+const my_set = new Set();
+console.log(my_set)
+my_set.add(24);
+my_set.add(21);
+my_set.add(12);
+my_set.add(24);
+my_set.add(21);
+console.log(my_set);
 
+const num = [1,2,3,4,5,6];
+const filtered = num.filter(n => n % 2 == 0);
+console.log(filtered);
