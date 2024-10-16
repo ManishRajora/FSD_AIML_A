@@ -64,3 +64,8 @@ console.log(my_set);
 const num = [1,2,3,4,5,6];
 const filtered = num.filter(n => n % 2 == 0);
 console.log(filtered);
+
+const reduced = num.reduce(n => {
+    return n += n;
+});
+console.log(reduced);
