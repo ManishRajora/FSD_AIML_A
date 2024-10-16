@@ -1,4 +1,4 @@
-var a = 12;
+/*var a = 12;
 if (a > 10){
     a = 20;
     console.log(a);
@@ -30,5 +30,26 @@ hello('hi their arrow');
 const btn = document.querySelector('#btn');
 btn.addEventListener('click', function(){
     document.querySelector('body').style.backgroundColor = 'red';
-})
+})*/
+
+// spreading
+
+/*const student = {
+    name:'abc',
+    branch:'AIML',
+    sec:'A'
+}
+console.log(student);
+
+const new_student = {id:1, ...student, sec:'B'};
+new_student.name = 'xyz';
+console.log(student);
+console.log(new_student);
+
+const emp = ['ABC', 56, 100023.5];
+console.log(emp);
+
+const emp1 = [101, ...emp];
+console.log(emp1);*/
+
 
