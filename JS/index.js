@@ -52,7 +52,7 @@ console.log(emp);
 const emp1 = [101, ...emp];
 console.log(emp1);*/
 
-const my_set = new Set();
+/*const my_set = new Set();
 console.log(my_set)
 my_set.add(24);
 my_set.add(21);
@@ -68,4 +68,45 @@ console.log(filtered);
 const reduced = num.reduce(n => {
     return n += n;
 });
-console.log(reduced);
+console.log(reduced);*/
+
+// promise
+
+const myPromise = new Promise(
+    (resolve, reject) => {
+        console.log('executed promise');
+        resolve('success');
+    }
+);
+
+myPromise.then((msg) => {
+    console.log(msg);
+}).catch((err) => {
+    console.log(err);
+})
+
+function displaydata(){
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            console.log('display');
+        })
+    })
+}
+
+function login(){
+    return new Promise((resolve, reject) => {
+        setTimeout
+    })
+}
+
+async function authenticate(){
+    try{
+        await register();
+        await sendemail();
+        await login();
+        await getdata();
+        await displaydata();
+    }catch(err){
+        console.log('error:', err);
+    }    
+}
