@@ -8,7 +8,7 @@ const App=()=>{
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/counter" element={<counter/>}></Route>
-        <Route path="/Stopwatch" element={<Stopwatch/>}></Route>
+        <Route path="/stopwatch" element={<stopwatch/>}></Route>
         <Route path="*" element={<h1>No Page Available</h1>}></Route>
       </Routes>
 
