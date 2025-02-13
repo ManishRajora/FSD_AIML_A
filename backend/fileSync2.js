@@ -4,4 +4,4 @@ myReadFile();
 const data="my WT Class";
 myWriteFile(data);
 myReadFile();
-console.log("username =",username)
+console.log("username =",username) 

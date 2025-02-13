@@ -5,7 +5,7 @@ try{
     if(data){
         console.log("file data ",data);
     }
-    else 
+    else
     throw err;
     
 }

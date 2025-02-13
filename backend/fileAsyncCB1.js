@@ -6,7 +6,7 @@ function myReadFile(){
             console.log("file data:",data);
         });
     }
-    catch(err){
+    catch(err){ 
         console.log("File Reading error ",err.message);
     }
 }
