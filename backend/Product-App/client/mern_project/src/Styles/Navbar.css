@@ -1,0 +1,10 @@
+.navbar{
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 10vh;
+}
+
+ul{
+    list-style-type: none;
+}
